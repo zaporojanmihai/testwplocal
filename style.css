@@ -1,0 +1,65 @@
+/*
+Theme Name: My WordPress Theme
+Theme URI: http://example.com/my-wordpress-theme
+Author: Your Name
+Author URI: http://example.com
+Description: A custom WordPress theme with enhanced search results functionality.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom, search, taxonomy
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.search-results {
+    margin: 20px 0;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.tab.active {
+    background: #fff;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+.sorting-filters {
+    margin-bottom: 20px;
+}
+
+.sorting-filters select {
+    padding: 5px;
+}
+
+.result-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.result-item h4 {
+    margin: 0 0 10px;
+}
+
+.result-item p {
+    margin: 0;
+}

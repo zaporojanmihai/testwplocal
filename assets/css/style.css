@@ -1,0 +1,72 @@
+/* 
+ * Main CSS styles for the theme
+ * Including styles specific to the search results page
+ */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.search-results {
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.tab.active {
+    background: #fff;
+    border-bottom: none;
+}
+
+.results {
+    display: none;
+}
+
+.results.active {
+    display: block;
+}
+
+.sorting {
+    margin-bottom: 20px;
+}
+
+.sorting select {
+    padding: 5px;
+}
+
+.result-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.result-item h3 {
+    margin: 0 0 10px;
+}
+
+.result-item a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.result-item a:hover {
+    text-decoration: underline;
+}
