@@ -1,0 +1,5 @@
+[user]
+	email = wordpress@example.com
+	name = WordPress Git Sync
+[core]
+	autocrlf = true
